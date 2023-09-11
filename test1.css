@@ -1,0 +1,32 @@
+/* Header and Footer */
+.navbar {
+    background-color: #222831;
+    /* Other styles for the navbar */
+}
+
+/* Content Sections */
+.about,
+.projects,
+.contact {
+    background-color: #393E46;
+    color: #EEEEEE;
+    /* Other styles for content sections */
+}
+
+/* Accent Color for Buttons and Links */
+.button {
+    background-color: #D65A31;
+    color: #EEEEEE;
+    /* Other button styles */
+}
+
+/* Text and Icons */
+.text {
+    color: #EEEEEE;
+}
+
+/* Light Background for Content Boxes */
+.light-box {
+    background-color: #EEEEEE;
+    /* Other styles for light-themed content */
+}
