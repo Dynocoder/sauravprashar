@@ -1,0 +1,65 @@
+{
+  "name": "Saurav Prashar",
+  "skills": {
+    "Frameworks": ["Laravel", "ASP.NET", "FastAPI", "React"],
+    "Languages": ["PHP", "C#", "Python", "Typescript"],
+    "Tools": ["AWS", "PostgreSQL", "Docker", "Linux"]
+  },
+  "experience": [
+    {
+      "role": "Programmer Analyst Intern",
+      "company": "Mohawk College - MEDIC (iDeaWorks)",
+      "period": "May 2025 - Present",
+      "description": "Developed an AI powered drug test result logging system for clinics and patients",
+      "skills": ["FastAPI", "ASP.NET", "React", "MaterialUI"]
+    },
+    {
+      "role": "Junior Research Assistant",
+      "company": "Mohawk College - iDeaWorks",
+      "period": "Oct 2024 - April 2025",
+      "description": "Developed 'Remembering Their Faces' Project which aims to provide a collection of histories of the Canadian Armed Forces for Family, Historians and Researchers to connect upon. The platform uses AI ethically to automatically detect related faces and entities and create networks to learn from.",
+      "skills": ["Laravel", "PHP", "MySQL"]
+    },
+    {
+      "role": "Programmer Analyst Intern",
+      "company": "MAK Consulting Group",
+      "period": "Jan 2024 - Sep 2024",
+      "description": "Developed a Manufacturing Execution system using ASP.NET and Angular that is used to control machines in factories around the world.",
+      "skills": ["ASP.NET", "Angular", "C#"]
+    },
+    {
+      "role": "Software Assistant",
+      "company": "Mohawk College",
+      "period": "May 2023 - Dec 2023",
+      "description": "Developed an application that integrates with Arduino based microcontrollers to visualize and record various sensor data in real-time.",
+      "skills": ["TKinter", "Python", "Arduino", "C++"]
+    },
+    {
+      "role": "Peer Assisted Study Sessions (PASS) Leader",
+      "company": "Mohawk College",
+      "period": "Sep 2023 - Dec 2023",
+      "description": "Conducted Study sessions to help first semester students in the Programming Fundamentals (Python) course. Boosted the average attendee grade by 18%.",
+      "skills": ["Python", "Communication Skills"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Mohawk Chatbot",
+      "description": "AI powered chatbot for the Mohawk College's PASS program using OpenAI's API",
+      "github_link": "https://github.com/Dynocoder/mohawk-chatbot",
+      "deployment_link": "https://chatbot.sauravprashar.com",
+      "skills": ["Flask", "OpenAI"]
+    },
+    {
+      "name": "Lab Controller",
+      "description": "Tkinter-based GUI controlling Arduino microcontroller and fetching sensor in real time using multi-threading",
+      "github_link": "https://github.com/Dynocoder/lab-controller",
+      "skills": ["Tkinter", "Arduino"]
+    }
+  ],
+  "socials": {
+    "github": "https://github.com/dynocoder",
+    "linkedin": "https://linkedin.com/in/sauravprashar",
+    "email": "sauravprashar21@gmail.com"
+  }
+}
