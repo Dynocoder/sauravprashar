@@ -1,7 +1,7 @@
 {
   "name": "Saurav Prashar",
   "skills": {
-    "Frameworks": ["Laravel", "ASP.NET", "FastAPI", "React"],
+    "Frameworks": ["FastAPI", "Laravel", "ASP.NET", "React"],
     "Languages": ["PHP", "C#", "Python", "Typescript"],
     "Tools": ["AWS", "PostgreSQL", "Docker", "Linux"]
   },
@@ -10,7 +10,7 @@
       "role": "Programmer Analyst Intern",
       "company": "Mohawk College - MEDIC (iDeaWorks)",
       "period": "May 2025 - Present",
-      "description": "Developed an AI powered drug test result logging system for clinics and patients",
+      "description": "Developed an AI powered drug test result logging system for clinics and patients that automatically analyzes and interprets test results using ML to streamline the reporting process.",
       "skills": ["FastAPI", "ASP.NET", "React", "MaterialUI"]
     },
     {
@@ -46,7 +46,7 @@
     {
       "name": "Mohawk Chatbot",
       "description": "AI powered chatbot for the Mohawk College's PASS program using OpenAI's API",
-      "github_link": "https://github.com/Dynocoder/mohawk-chatbot",
+      "github_link": "https://github.com/Dynocoder/MohawkChatbot",
       "deployment_link": "https://chatbot.sauravprashar.com",
       "skills": ["Flask", "OpenAI"]
     },
