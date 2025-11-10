@@ -1,5 +1,14 @@
+export interface TypewriterAction {
+  type: 'type' | 'deleteAll' | 'deleteChars' | 'pause';
+  text?: string;
+  count?: number;
+  duration?: number;
+}
+
 export interface PortfolioData {
   name: string;
+  titles: string[];
+  typewriterSequences?: TypewriterAction[];
   skills: {
     [category: string]: string[];
   };

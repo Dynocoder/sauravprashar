@@ -31,7 +31,7 @@ function App() {
     <div className="min-h-screen bg-gray-900">
       <Navigation name={data.name} />
       <main className="max-w-4xl mx-auto px-6 pt-20">
-        <About name={data.name} title={data.title} about={data.about} />
+        <About name={data.name} titles={data.titles} typewriterSequences={data.typewriterSequences} />
         <Skills skills={data.skills} />
         <Experience experience={data.experience} />
         <Projects projects={data.projects} />
