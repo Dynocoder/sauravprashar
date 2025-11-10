@@ -1,20 +1,28 @@
+import { TypewriterSequence } from './TypewriterSequence';
+import { TypewriterAction } from '../types';
+
 interface AboutProps {
   name: string;
-  title: string;
-  about: string;
+  typewriterSequences?: TypewriterAction[];
 }
 
-export const About = ({ name, title, about }: AboutProps) => {
+export const About = ({ name, typewriterSequences }: AboutProps) => {
   return (
     <section id="about" className="min-h-screen flex items-center">
       <div className="w-full">
-        <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
+        <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
           {name}
         </h1>
-        <p className="text-xl md:text-2xl text-gray-400 mb-8">{title}</p>
-        <p className="text-lg text-gray-300 leading-relaxed max-w-2xl">
-          {about}
-        </p>
+        {typewriterSequences && typewriterSequences.length > 0 ? (
+          <div className="mb-2 text-xl md:text-2xl text-gray-400">
+            <TypewriterSequence
+              sequences={typewriterSequences}
+              className="text-xl md:text-2xl text-gray-400"
+            />
+          </div>
+        ) : (
+          <p className="text-xl md:text-2xl text-gray-400">Software Developer</p>
+        )}
       </div>
     </section>
   );
