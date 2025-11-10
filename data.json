@@ -1,5 +1,107 @@
 {
   "name": "Saurav Prashar",
+  "typewriterSequences": [
+    {
+      "type": "type",
+      "text": "Software developer"
+    },
+    {
+      "type": "pause",
+      "duration": 1000
+    },
+    {
+      "type": "deleteAll"
+    },
+    {
+      "type": "type",
+      "text": "Experienced in FastAPI"
+    },
+    {
+      "type": "pause",
+      "duration": 1500
+    },
+    {
+      "type": "deleteChars",
+      "count": 7
+    },
+    {
+      "type": "type",
+      "text": ".NET"
+    },
+    {
+      "type": "pause",
+      "duration": 1000
+    },
+    {
+      "type": "deleteChars",
+      "count": 4
+    },
+    {
+      "type": "type",
+      "text": "Laravel"
+    },
+    {
+      "type": "pause",
+      "duration": 1000
+    },
+    {
+      "type": "deleteChars",
+      "count": 7
+    },
+    {
+      "type": "type",
+      "text": "Angular"
+    },
+    {
+      "type": "pause",
+      "duration": 1000
+    },
+    {
+      "type": "deleteChars",
+      "count": 7
+    },
+    {
+      "type": "type",
+      "text": "React"
+    },
+    {
+      "type": "pause",
+      "duration": 1000
+    },
+    {
+      "type": "deleteAll"
+    },
+    {
+      "type": "type",
+      "text": "Software developer"
+    },
+    {
+      "type": "pause",
+      "duration": 1000
+    },
+    {
+      "type": "deleteAll"
+    },
+    {
+      "type": "type",
+      "text": "Avid Neovim User 🤓"
+    },
+    {
+      "type": "pause",
+      "duration": 1500
+    },
+    {
+      "type": "type",
+      "text": " (arch, btw 🐧)"
+    },
+    {
+      "type": "pause",
+      "duration": 2000
+    },
+    {
+      "type": "deleteAll"
+    }
+  ],
   "skills": {
     "Frameworks": ["FastAPI", "Laravel", "ASP.NET", "React"],
     "Languages": ["PHP", "C#", "Python", "Typescript"],
