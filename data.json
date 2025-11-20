@@ -73,17 +73,6 @@
     },
     {
       "type": "type",
-      "text": "Software developer"
-    },
-    {
-      "type": "pause",
-      "duration": 1000
-    },
-    {
-      "type": "deleteAll"
-    },
-    {
-      "type": "type",
       "text": "Avid Neovim User 🤓"
     },
     {
@@ -113,6 +102,7 @@
       "company": "Mohawk College - MEDIC (iDeaWorks)",
       "period": "May 2025 - Present",
       "description": "Developed an AI powered drug test result logging system for clinics and patients that automatically analyzes and interprets test results using ML to streamline the reporting process.",
+      "longDescription": "• Architected full-stack B2B drug test tracking application using FastAPI, React, and PostgreSQL, implementing MVC architecture.\n • Enhanced development efficiency by implementing asynchronous event-loop support, enabling concurrent operations and faster test execution.\n • Developed ML benchmarking pipeline and training data generation for EfficientNet-based test cup segmentation (90%+ accuracy).\n • Created comprehensive test suites and database seeders for streamlined development workflows.",
       "skills": ["FastAPI", "ASP.NET", "React", "MaterialUI"]
     },
     {
@@ -120,6 +110,7 @@
       "company": "Mohawk College - iDeaWorks",
       "period": "Oct 2024 - April 2025",
       "description": "Developed 'Remembering Their Faces' Project which aims to provide a collection of histories of the Canadian Armed Forces for Family, Historians and Researchers to connect upon. The platform uses AI ethically to automatically detect related faces and entities and create networks to learn from.",
+      "longDescription": "• Redesigned UI for ”Remembering Their Faces” platform using PHP Laravel and Livewire, managing 300+ veteran records for Canadian Warplane Museum and SSHRC-CRSH partnership.\n • Optimized application performance by implementing asynchronous Ajax requests to eliminate full page reloads and eager loading strategies for multi-resolution image assets (low, medium, high-detail).\n • Contributed to grant-funded research initiative enabling swift WWII veteran data access.\n • Modernized rcna.ca interface using Laravel and Statamic CMS with contemporary blog-style design.\n",
       "skills": ["Laravel", "PHP", "MySQL"]
     },
     {
@@ -127,6 +118,7 @@
       "company": "MAK Consulting Group",
       "period": "Jan 2024 - Sep 2024",
       "description": "Developed a Manufacturing Execution system using ASP.NET and Angular that is used to control machines in factories around the world.",
+      "longDescription": "• Modernized 10+ legacy AngularJS pages to Angular with TypeScript integration for a Manufacturing Execution System used across 300+ factories globally.\n • Resolved critical data collection bug affecting archived equipment, improving report generation performance by 90% through logic optimization.\n • Developed RESTful APIs using .NET and MS SQL, enhancing code maintainability and system integration.",
       "skills": ["ASP.NET", "Angular", "C#"]
     },
     {
@@ -134,6 +126,7 @@
       "company": "Mohawk College",
       "period": "May 2023 - Dec 2023",
       "description": "Developed an application that integrates with Arduino based microcontrollers to visualize and record various sensor data in real-time.",
+      "longDescription": "• Developed modular Python GUI application using Tkinter and custom threading for <strong>real-time</strong> data collection from multiple sensors (temperature, pH, mass, volume) during chemical reactions.\n • Integrated Arduino using UART communication protocol and multi-threading to handle sensor data streams and lag-free UI updates, enabling near real-time monitoring of sensor data.\n • Enhanced CHEM 10046 curriculum delivery by creating educational tools for teaching Python to chemical engineering students, supporting 15+ users.",
       "skills": ["TKinter", "Python", "Arduino", "C++"]
     },
     {
