@@ -139,6 +139,13 @@
   ],
   "projects": [
     {
+      "name": "HttpfromTCP",
+      "description": "A lightweight HTTP server built from scratch using raw TCP sockets in Go",
+      "longDescription": " • HttpfromTCP is a minimalist HTTP server implemented entirely using raw TCP sockets in <strong>Go</strong>.\n • It handles basic HTTP methods like GET and POST, serves static files, and manages multiple client connections concurrently using <strong>goroutines</strong>.\n • Implemented tests to ensure compliance with HTTP/1.1 standards, covering request parsing, response formatting, and error handling.\n • The Protocol implementation is heavily inspired from <strong>RFC 9112</strong> (the official RFC for HTTP/1.1).\n • This project demonstrates a deep understanding of the HTTP protocol and low-level network programming concepts.",
+      "github_link": "https://github.com/Dynocoder/httpfromtcp",
+      "skills": ["Go", "TCP Sockets", "HTTP", "Networking"]
+    },
+    {
       "name": "Mohawk Chatbot",
       "description": "AI powered chatbot for the Mohawk College's PASS program using OpenAI's API",
       "github_link": "https://github.com/Dynocoder/MohawkChatbot",
