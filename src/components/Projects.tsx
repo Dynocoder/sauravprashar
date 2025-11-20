@@ -16,33 +16,26 @@ export const Projects = ({ projects }: ProjectsProps) => {
     setGlobalExpanded(!isMobile);
   }, [isMobile]);
 
-  // const shouldExpand = globalExpanded;
-
-  const anyLongDescriptions = projects.some(project => project.longDescription);
-
   return (
     <section id="projects" className="py-20">
       <div className="flex justify-between items-center mb-12">
         <h2 className="text-3xl font-bold text-white">Projects</h2>
-        {anyLongDescriptions && (
-
-          <button
-            onClick={() => setGlobalExpanded(!globalExpanded)}
-            className="flex items-center text-sm text-gray-400 hover:text-gray-300 transition-colors"
-          >
-            {globalExpanded ? (
-              <>
-                <span>Collapse All</span>
-                <ChevronUp size={16} className="ml-1" />
-              </>
-            ) : (
-              <>
-                <span>Expand All</span>
-                <ChevronDown size={16} className="ml-1" />
-              </>
-            )}
-          </button>
-        )}
+        <button
+          onClick={() => setGlobalExpanded(!globalExpanded)}
+          className="flex items-center text-sm text-gray-400 hover:text-gray-300 transition-colors"
+        >
+          {globalExpanded ? (
+            <>
+              <span>Collapse All</span>
+              <ChevronUp size={16} className="ml-1" />
+            </>
+          ) : (
+            <>
+              <span>Expand All</span>
+              <ChevronDown size={16} className="ml-1" />
+            </>
+          )}
+        </button>
       </div>
       <div className="space-y-8">
         {projects.map((project, index) => (
