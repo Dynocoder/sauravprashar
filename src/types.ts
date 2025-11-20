@@ -26,12 +26,14 @@ export interface Experience {
   company: string;
   period: string;
   description: string;
+  longDescription?: string;
   skills?: string[];
 }
 
 export interface Project {
   name: string;
   description: string;
+  longDescription?: string;
   github_link?: string;
   deployment_link?: string;
   skills: string[];

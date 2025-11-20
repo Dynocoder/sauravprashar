@@ -1,14 +1,49 @@
-import { ExternalLink, GithubIcon } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { ExternalLink, GithubIcon, ChevronDown, ChevronUp } from 'lucide-react';
 import { Project as ProjectType } from '../types';
+import { ExpandableDescription } from './ExpandableDescription';
+import { useIsMobile } from '../hooks/useIsMobile';
 
 interface ProjectsProps {
   projects: ProjectType[];
 }
 
 export const Projects = ({ projects }: ProjectsProps) => {
+  const isMobile = useIsMobile();
+  const [globalExpanded, setGlobalExpanded] = useState(!isMobile);
+
+  useEffect(() => {
+    setGlobalExpanded(!isMobile);
+  }, [isMobile]);
+
+  // const shouldExpand = globalExpanded;
+
+  const anyLongDescriptions = projects.some(project => project.longDescription);
+
   return (
     <section id="projects" className="py-20">
-      <h2 className="text-3xl font-bold text-white mb-12">Projects</h2>
+      <div className="flex justify-between items-center mb-12">
+        <h2 className="text-3xl font-bold text-white">Projects</h2>
+        {anyLongDescriptions && (
+
+          <button
+            onClick={() => setGlobalExpanded(!globalExpanded)}
+            className="flex items-center text-sm text-gray-400 hover:text-gray-300 transition-colors"
+          >
+            {globalExpanded ? (
+              <>
+                <span>Collapse All</span>
+                <ChevronUp size={16} className="ml-1" />
+              </>
+            ) : (
+              <>
+                <span>Expand All</span>
+                <ChevronDown size={16} className="ml-1" />
+              </>
+            )}
+          </button>
+        )}
+      </div>
       <div className="space-y-8">
         {projects.map((project, index) => (
           <div
@@ -40,7 +75,14 @@ export const Projects = ({ projects }: ProjectsProps) => {
                 )}
               </div>
             </div>
-            <p className="text-gray-300 mb-4 leading-relaxed">{project.description}</p>
+            <div className="mb-4">
+              <ExpandableDescription
+                shortDescription={project.description}
+                longDescription={project.longDescription}
+                defaultExpanded={globalExpanded}
+                forceCollapsed={false}
+              />
+            </div>
             <div className="flex flex-wrap gap-2">
               {project.skills.map((skill) => (
                 <span
